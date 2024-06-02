@@ -1,0 +1,28 @@
+{
+  "name": "ai-chatbox",
+  "version": "1.0.0",
+  "description": "A simple chatbot powered by ChatGPT 3.5, built with Node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romaniso/ai-chatbox.git"
+  },
+  "keywords": [],
+  "author": "Roman Isopenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romaniso/ai-chatbox/issues"
+  },
+  "homepage": "https://github.com/romaniso/ai-chatbox#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.47.3",
+    "readline-sync": "^1.4.10"
+  }
+}
